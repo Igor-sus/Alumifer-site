@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alumifer - Vidros e Esquadrias de Alumínio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root {
+      --dourado: #F4B324;
+      --cinza-escuro: #4A4A4A;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-[color:var(--cinza-escuro)]">
+
+  <header class="bg-white shadow p-4">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <div class="flex items-center space-x-2">
+        <img src="https://instagram.fldb12-1.fna.fbcdn.net/v/t51.2885-19/334320761_199725792705782_8393174960291895042_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=instagram.fldb12-1.fna.fbcdn.net&_nc_cat=102&_nc_oc=Q6cZ2QGMLtQ-eJR7l3gTol1BsPMrBzMrRwRB-7cge36Pi2aIiUPoK2H39xJn-NF_c-eRv4c&_nc_ohc=eD8F8apnOi0Q7kNvwGlky26&_nc_gid=dQUhOz9CxP2JrDsAttyVJw&edm=AP4sbd4BAAAA&ccb=7-5&oh=00_AfTM7DMHvvxg7yFPxXIWttZnurlj9QKoC6QE4gY4kNn7XQ&oe=6888BB76&_nc_sid=7a9f4b" alt="Logo Alumifer" class="h-12 w-auto rounded-full">
+        <h1 class="text-2xl font-bold text-black">Alumifer</h1>
+      </div>
+      <nav class="space-x-4 text-sm font-semibold">
+        <a href="#servicos" class="hover:text-[color:var(--dourado)]">Serviços</a>
+        <a href="#produtos" class="hover:text-[color:var(--dourado)]">Produtos</a>
+        <a href="#contato" class="hover:text-[color:var(--dourado)]">Contato</a>
+        <a href="https://www.instagram.com/alumifer_arapongas" target="_blank" class="hover:text-[color:var(--dourado)]">Instagram</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="bg-[color:var(--dourado)] text-white py-20">
+    <div class="max-w-6xl mx-auto text-center px-4">
+      <h2 class="text-4xl font-bold mb-4">Excelência em Vidros e Esquadrias de Alumínio</h2>
+      <p class="text-lg">Soluções modernas, duráveis e sob medida para sua obra ou reforma.</p>
+    </div>
+  </section>
+
+  <section id="servicos" class="py-16">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <h3 class="text-3xl font-bold text-[color:var(--dourado)] mb-12">Nossos Serviços</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white shadow p-6 rounded-xl">
+          <h4 class="text-xl font-semibold mb-2">Esquadrias de Alumínio</h4>
+          <p>Janelas, portas e estruturas feitas sob medida, com acabamento profissional.</p>
+        </div>
+        <div class="bg-white shadow p-6 rounded-xl">
+          <h4 class="text-xl font-semibold mb-2">Vidros Temperados</h4>
+          <p>Instalação de vidros com segurança e sofisticação para ambientes internos e externos.</p>
+        </div>
+        <div class="bg-white shadow p-6 rounded-xl">
+          <h4 class="text-xl font-semibold mb-2">Fechamentos e Fachadas</h4>
+          <p>Soluções de fechamento em vidro ou alumínio para sacadas, lojas e muito mais.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="produtos" class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <h3 class="text-3xl font-bold text-[color:var(--dourado)] mb-12">Produtos em Destaque</h3>
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="bg-gray-100 p-4 rounded-xl shadow">
+          <img src="data:image/png;base64,[BASE64_1]" alt="Fechadura com miolo" class="w-full h-48 object-contain mb-4">
+          <h4 class="font-bold">Fechadura com miolo</h4>
+          <p class="text-sm">Para porta de correr V/A</p>
+        </div>
+        <div class="bg-gray-100 p-4 rounded-xl shadow">
+          <img src="data:image/png;base64,[BASE64_2]" alt="Bate fecha V/V" class="w-full h-48 object-contain mb-4">
+          <h4 class="font-bold">Bate fecha V/V</h4>
+          <p class="text-sm">Peça reforçada com encaixe preciso</p>
+        </div>
+        <div class="bg-gray-100 p-4 rounded-xl shadow">
+          <img src="data:image/png;base64,[BASE64_3]" alt="Bate fecha V/A" class="w-full h-48 object-contain mb-4">
+          <h4 class="font-bold">Bate fecha V/A</h4>
+          <p class="text-sm">Design compacto para portas de alumínio</p>
+        </div>
+        <div class="bg-gray-100 p-4 rounded-xl shadow">
+          <img src="data:image/png;base64,[BASE64_4]" alt="Carrinho com roldana" class="w-full h-48 object-contain mb-4">
+          <h4 class="font-bold">Carrinho duplo</h4>
+          <p class="text-sm">Com roldana côncava para porta de correr</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="bg-gray-100 py-16">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h3 class="text-3xl font-bold text-[color:var(--dourado)] mb-6">Fale Conosco</h3>
+      <p class="mb-8">Entre em contato para orçamentos, dúvidas ou parcerias.</p>
+      <div class="space-y-4 text-left max-w-md mx-auto text-black">
+        <p><strong>📞 Telefone:</strong> (43) 98862-0882</p>
+        <p><strong>📧 E-mail:</strong> contato@alumifer.com.br</p>
+        <p><strong>📍 Endereço:</strong> Av. Taperaçu-Cinza, 440 - Jardim Interlagos, Arapongas - PR</p>
+        <p><strong>📷 Instagram:</strong> <a href="https://www.instagram.com/alumifer_arapongas" target="_blank" class="text-[color:var(--dourado)] hover:underline">@alumifer_arapongas</a></p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-white text-center py-4 border-t text-sm text-gray-500">
+    © 2025 Alumifer. Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
